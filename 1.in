@@ -1,0 +1,264 @@
+/* This file contains sample keywords, commands etc for practicing on ten fast fingers */
+
+/* note that you can use the c/++ commenting format, so feel free to put as many headings as u want using // and /* and */
+
+/* the code is formatted so that any text on a line are randomised in ten fast fingers*/
+
+/* note: you cannot use the characters, #, | or = for some reason, cause 10 fast fingers doesn't like it*/
+
+// some general commands from the command line 
+diff
+cat
+mkdir
+ls
+dir
+cd
+mv
+grep
+
+
+// general Makefile stuff
+
+.PHONY: all clean
+all: ./a.out
+./a.out: main.cpp
+g++ main.cpp
+1.in
+1.out
+1.cmp
+make
+Makefile
+
+// C++ libraries that Josiah happens to use all the time
+//#include<cassert>
+//#include<vector>
+//#include<string>
+//#include<iostream>
+//#include<algorithm>
+//#include<bits/stdc++.h>
+//#include<unordered_set>
+//#include<unordered_map>
+//#include<set>
+//#include<map>
+//#include<forward_list>
+//#include<list>
+//#include<queue>
+//#include<stack>
+//#include<climits>
+//#include<dequeue>
+include
+<cassert>
+<iostream>
+<algorithm>
+<bits/stdc++.h>
+<forward_list>
+<climits>
+<dequeue>
+
+
+// C specific libraries
+//#include<stdio.h>
+//#include<stdlib.h>
+//#include<assert.h>
+//#include<limits.h>
+//#include<string.h>
+<stdio.h>
+<stdlib.h>
+<assert.h>
+<limits.h>
+<string.h>
+
+
+// general datatypes
+auto
+volatile
+static
+extern
+nonlocal
+local
+global
+this
+that
+self
+lambda
+if
+return
+else
+ifndef
+ifdef
+endif
+define
+int
+char
+struct
+class
+union
+string
+unordered_set
+set
+unordered_map
+map
+priority_queue
+queue
+stack
+heap
+long long
+while
+for
+unsigned
+signed
+double
+float
+disjoint sets
+hashtable
+that
+who
+and
+or
+not
+xor
+
+// common typdefs C++
+typedef pair<int, int> iPair;
+
+
+// common initialisations C++
+priority_queue<iPair, vector<iPair>, greater<iPair>> pq;
+vector<vector<int>> adj(N, vector<int>());
+int T,N,M;
+
+
+//time space complexity stuff
+time complexity
+space complexity
+O(N)
+O(log(N))
+O(Nlog(N))
+O(N^log2(3))
+O(N^2)
+O((V + E)log(E))
+O(log*(N))
+O(V^2)
+O(NM)
+O(1)
+O(4^N*N)
+
+// some common C++ commands
+for (auto x: a){
+cin >> x;
+for (const auto x: a){
+cout << x << ' ';
+
+//for(int t=1;t<=t;t++){ // doesn't seem to like = signs
+//cout<<"Case #"<<t<<": "<<ans<<endl; // doesn't seem to like this one cause of #
+
+i++;
+i--;
+using namespace std;
+int main(void){
+cin >> N >> K;
+cin >> T;
+make_pair(i, j);
+
+// priority_queue
+pq.pop();
+pq.top();
+pq.empty();
+pq.size();
+
+// queue
+q.pop();
+q.front();
+q.empty();
+q.size();
+q.push();
+
+// stack
+s.empty();
+s.size();
+s.top();
+s.push();
+s.pop();
+
+// map
+m.emplace(str, i);
+
+// common c++ iterators? honestly, a pain in the bum when touch typing in ten fast fingers
+//binary_search(a.begin(), a.end(), K);
+//upper_bound(a.begin(), a.end(), K);
+//lower_bound(a.begin(), a.end(), K);
+//sort(a.begin(), a.end(), cmp);
+
+binary_search
+upper_bound
+lower_bound
+sort
+a.begin()
+a.end()
+
+
+
+// algorithm names
+Kosaraju's algorithm
+Prim's algorithm
+Kruskal's algorithm
+Dijkstra's algorithm
+Rabin Karp's algorithm
+Depth-first search (DFS)
+Breadth-first search (BFS)
+topological sort
+pointer manipulation
+quickSelect
+quickSort
+mergeSort
+heapSort
+divide and conquer
+greedy algorithms
+dynamic programming
+Floyd's cycle detection algorithm
+Fermat's little theorem: a^P equals a (mod P)
+Bellman-Ford's algorithm
+infinite arbitrage
+Aho-Corasick
+
+
+// graph datastructure names
+connected components
+strongly connected components
+directed acyclic graph (DAG)
+directed edge
+undirected edge
+minimum spanning tree
+binary tree
+trie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end of the file
+Nothing to see here
+literally nothing
+Don't need to keep reading
+Lol
+Y u still reading?
+I literally said there's nothing to c here
+dw
+this part of the input file won't be parsed into the ten fast fingers
+The reason?
+Obviously cause it's been commented
+u can see the /* symbol at the top
+*/
+

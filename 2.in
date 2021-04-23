@@ -1,0 +1,9 @@
+/* this file contains some sentences containing information in programming */
+
+// common sentences in programming
+
+// Prim's algorithm - computing minimum spanning trees
+Prim's algorithm runs in O(Elog(V)) time, it uses disjoint sets to detect cycles. If the input edges are sorted initially, Prim's algorithm runs in O(Elog*(V)) time.
+
+// Kruskal's algorithm - computing minimum spanning trees
+Kruskal's algorithm runs in O((E + V)log(V)) time when using priority queues and Kruskal's algorithm runs in O(V^2) when using vertex arrays. An important caveat is that to make kruskal work in graphs with multiple connected components, you must run a dfs-like algorithm across all nodes and keep track of them using a boolean visit vector.
